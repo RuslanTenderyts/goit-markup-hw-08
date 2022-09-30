@@ -1,0 +1,58 @@
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 40px;
+    transform: scale(1) translate(-50% , -50%);
+   
+    width: 450px;
+    height: 609px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+
+      @media screen and (min-width: 1200px){
+        width: 528px;
+        height: 581px;
+      };
+        
+}
+  
+
+  .close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    margin: 0;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    fill: #000;
+    transition: transform var(--transition-dur-and-func) 250ms, 
+                opacity var(--transition-dur-and-func), 
+                fill var(--transition-dur-and-func);
+    cursor: pointer;
+  
+
+        &:hover,
+        &:focus {
+        fill: var(--main-hover-color);
+        }
+}
+
+.close-icon {
+  width: 100%;
+  height: 100%;
+}
+.modal__titel {
+  margin-bottom: 12px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  color: #212121;
+}

@@ -1,0 +1,52 @@
+ .hero {
+    max-width: 1600px;
+    height: 400px;
+    text-align: center;
+    padding-top: 118px;
+    padding-bottom: 118px;
+    margin-left: auto;
+    margin-right: auto;
+  
+    background-color: rgba(47, 48, 58, 0.4);
+    background-image: linear-gradient(
+                    rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)),  
+                    url(../images/fon-hero.jpg);
+  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+      
+      @media screen and (min-width: 1200px) {
+        height: 600px;
+        padding-top: 200px;
+        padding-bottom: 200px;
+      }
+  }
+  
+  .hero__title {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-light-color);
+    min-width: 290px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+      @media screen and (min-width: 480px) {
+        width: 360px;
+      }
+      @media screen and (min-width: 1200px) {
+        width: 696px;
+        font-size: 44px;
+      }
+  }
+ 
+  
+  
+ 
+  

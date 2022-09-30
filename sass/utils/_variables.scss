@@ -1,0 +1,24 @@
+:root {
+    --main-light-color: #fff;
+    --main-dark-color: #212121;
+    --second-dark-color: #757575;
+    --mail-font-color: #ffffff;
+    --second-font-color: #2f303a;
+    --third-font-color: #f5f4fa;
+    --portfolio-font: #e5e5e5;
+    --color-icon: #AFB1B8;
+    --main-hover-color : #2196f3;
+    --black-logo : #000;
+    --transition-dur-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+  }
+  
+
+@mixin font-subtitle ($fw: 700, $fs: 14px, $lh: 1.14, $ls: 0.03em, $tt: uppercase) {
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh;
+  letter-spacing: $ls;
+  text-transform: $tt;
+}
+
+  

@@ -1,0 +1,131 @@
+.portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  // .main .list {
+  //   display: flex;
+  // }
+  .battons-list {
+    justify-content: center;
+    margin-bottom: 50px;
+     
+  }
+  .buttons {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+  
+    text-align: center;
+    color: var(--main-dark-color);
+    background: var(--third-font-color);
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    
+    padding: 6px 22px;
+    transition: background var(--transition-dur-and-func), color var(--transition-dur-and-func), box-shadow var(--transition-dur-and-func);
+
+
+        &:focus,
+        &:hover {
+          background: var(--main-hover-color);
+          color: var(--main-light-color);
+          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+            0px 2px 2px rgba(0, 0, 0, 0.12);
+          }
+    }
+  
+  .battons-item:not(:last-child) {
+    margin-right: 8px;
+  }
+  
+  .list-jobs {
+    flex-wrap: wrap;
+  }
+  
+  .list-jobs .item {
+    margin-right: 30px;
+    margin-top: 30px;
+
+
+      &:nth-child(3n) {
+        margin-right: 0;
+      }
+      &:nth-child(-n+3) {
+        margin-top: 0;
+      }
+  }
+  
+  
+  .href-img {
+    display: block;
+    transition: box-shadow var(--transition-dur-and-func);
+
+
+        &:hover,
+        &:focus {
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+        }
+      
+  }
+  
+  .product-thumb {
+    position: relative;
+    overflow: hidden;
+  }
+  .product-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(33, 150, 243, 0.9);
+    transform: translateY(101%);
+    transition: transform var(--transition-dur-and-func);
+
+
+
+      .href-img:hover &,
+      .href-img:focus & {
+      transform: translateY(0%);
+      }
+  } 
+ 
+  
+  .href-tex {
+    position: absolute;
+    width: 322px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  
+    font-size: 18px;
+    line-height: 1.55;
+    letter-spacing: 0.03em;
+    color: var(--mail-font-color);
+    
+  }
+   
+  .content-item {
+    padding: 24px 20px;
+    border-left: 1px solid rgba(238, 238, 238, 1);
+    border-right: 1px solid rgba(238, 238, 238, 1);
+    border-bottom: 1px solid rgba(238, 238, 238, 1);
+    
+  }
+  .content-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-dark-color);
+  
+    margin-bottom: 4px;
+  }
+  .content-tex {
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--second-dark-color);
+  }

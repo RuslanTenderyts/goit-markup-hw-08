@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+p {
+  padding: 0;
+  margin: 0;
+}
+ img {
+   display: block;
+   height: auto;
+ }
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--second-dark-color);
+}
+
+.link {
+  text-decoration: none;
+  }
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}  

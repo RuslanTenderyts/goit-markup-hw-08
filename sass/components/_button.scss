@@ -1,0 +1,25 @@
+.button {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 216px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    color: var(--mail-font-color);
+    background: #2196F3;
+    border: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background var(--transition-dur-and-func), drop-shadow var(--transition-dur-and-func);
+  
+
+          &:focus, 
+          &:hover {
+            background-color: #188CE8;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          }
+  }
