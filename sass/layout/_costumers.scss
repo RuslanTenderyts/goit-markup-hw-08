@@ -2,13 +2,13 @@
   display: flex;
   flex-wrap: wrap;
   
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 320px) {
       margin: -15px;
     }
 
 }
 .section__item.customers__item {
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: 320px) {
     width: calc(( 100% - 2 * 30px) / 2 );
     margin: 15px;
   }
@@ -36,12 +36,10 @@ transition: color var(--transition-dur-and-func);
   }
       
 }
-      
-  
-  
-  .customers__icon {
-    width: 106px;
-    height: 60px;
-    fill: currentColor;
-  }
+    
+.customers__icon {
+  width: 106px;
+  height: 60px;
+  fill: currentColor;
+}
   

@@ -1,6 +1,12 @@
 .team {
     background-color: #F5F4FA;
 }
+.team__list {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
 .team__item {
   text-align: center;
   background-color: var(--mail-font-color);
@@ -9,7 +15,12 @@
               0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px ;
 }
-
+.team__img {
+  width: 100%;
+  @media screen and (min-with:768px) {
+    width: 100%;
+  }
+}
 .team__box {
   padding-top: 30px;
   padding-bottom: 30px;
