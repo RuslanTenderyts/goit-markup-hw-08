@@ -47,18 +47,17 @@
   z-index: 2;
   
           
-      @media screen and (max-width: 767px) {
+    @media screen and (max-width: 767px) {
       
-      display: none;
       position: fixed;
       top: 0;
       left:0;
       width: 100%;
       height: 100%;
       opacity: 0;
-      background-color: var(--mail-font-color);
       visibility: hidden;
       pointer-events: none;
+      background-color: var(--mail-font-color);
       transition: opacity var(--transition-dur-and-func), visibility var(--transition-dur-and-func);
       
                   
@@ -70,7 +69,8 @@
         opacity: 1;
         visibility: visible;
         pointer-events: auto;
-      }
+        
+    }
 }
 
 .mobile-menu__container {
