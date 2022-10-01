@@ -1259,6 +1259,12 @@ body {
   padding-bottom: 94px;
 }
 
+.portfolio .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .battons-list {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
