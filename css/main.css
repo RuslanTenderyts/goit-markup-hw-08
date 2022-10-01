@@ -575,6 +575,17 @@ body {
 }
 @media screen and (max-width: 767px) {
   .mobile-menu__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 100%;
     padding: 48px 40px;
     margin-left: auto;
     margin-right: auto;
@@ -661,11 +672,6 @@ body {
   color: var(--main-hover-color);
 }
 
-@media screen and (max-width: 767px) {
-  .nav__list {
-    margin-bottom: 302px;
-  }
-}
 @media screen and (min-width: 768px) {
   .nav__list {
     display: -webkit-box;
