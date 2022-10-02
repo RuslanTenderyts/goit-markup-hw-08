@@ -192,12 +192,14 @@
   letter-spacing: 0.02em;
   color: var(--main-dark-color);
   transition: color var(--transition-dur-and-func);
+
+    &--active {
+      color: #2196f3;
+    }
    
     @media screen and (min-width: 768px) {
       font-size: 14px;
-      &--active {
-        color: #2196f3;
-        }
+      
       &--active::after  {
         position: absolute;
         display: block;

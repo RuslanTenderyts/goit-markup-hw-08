@@ -708,12 +708,12 @@ body {
   -webkit-transition: color var(--transition-dur-and-func);
   transition: color var(--transition-dur-and-func);
 }
+.nav__link--active {
+  color: #2196f3;
+}
 @media screen and (min-width: 768px) {
   .nav__link {
     font-size: 14px;
-  }
-  .nav__link--active {
-    color: #2196f3;
   }
   .nav__link--active::after {
     position: absolute;
